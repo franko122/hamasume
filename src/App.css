@@ -1,0 +1,1112 @@
+ /* mobile screen */
+@media(max-width:760px){
+  .page{ 
+    text-align: center;
+    color:rgb(0, 116, 151);
+    font-size:12px;
+  }
+  .upo{
+    color:rgb(0, 116, 151);
+    outline: none;
+    text-decoration: none;
+  }
+  .lad{
+    width: 100%;
+    height: 100vh; 
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 22;
+    background-color: rgb(0, 116, 151);
+    position: fixed;
+  }
+  .hub{
+    color: white;
+  }
+  header{
+    width: 100%; 
+    margin-top: 20px; 
+    margin: auto; 
+  } 
+  .nameser{
+    width: 100%;
+  }
+  .up:hover{
+    cursor: pointer;
+    border: white solid 2px;
+    transition: 1s;
+    background-color: inherit;
+    color: white;
+  }
+  .alrigt{ 
+    text-align: center;
+    font-size: 10px;
+    color: rgb(230, 230, 230);
+  }
+  .ups{
+    outline: none;
+    border: none;
+    width: 100%;
+    color: rgb(0, 116, 151);
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 13px;
+    color: white;  
+    background-color: red;
+  }
+  .thefive{
+    color: black;
+    font-size:15px;
+  }
+  .hime{
+    display: flex;
+    align-items: center; 
+    justify-content: cen;
+    width: 10%;
+    height:40px;
+  }
+  .parentsidse{
+    width: 100%;
+  }
+  .noli{
+    border-radius: 5px;
+    width: 100%;
+    background-color:rgb(0, 116, 151) ;
+    height: 6px;
+  }
+  .oneslide{
+    width:95%;
+    height:180px;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+    margin: auto;
+  }
+  
+  .oneslides{
+    width:95%;
+    display: none;
+    height:180px;
+    animation-name: come;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+    margin: auto;
+  }
+  .nolis{
+    width: 100%;
+    background-color:rgb(0, 116, 151) ;
+    height: 6px;
+    margin-top:3px ;
+    border-radius: 5px;
+    margin-bottom: 4px;
+  }
+  .nav1{ 
+      align-items: center;
+      width: 100%;
+      color: rgb(0, 116, 151);
+      background-color:white ;
+      height:50px;
+      position: fixed;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+    }
+    
+    .noiu{ 
+      font-size: 10px;
+      width:100%;  
+      padding: 20px;
+      margin:2px;
+      background-color: rgb(0, 116, 151); color: white; border: none; outline: none; padding:8px; border-radius:4px; cursor: pointer;
+  }
+    .holki{
+      display: flex;
+      justify-content: space-between; 
+      color: white;
+      width: 100%;
+  }
+  
+  .real{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+  }
+    .rightdibtr{
+      width: 97%;  
+      margin: 10px;
+      display: flex; 
+      margin-top:-10px;
+      overflow-x: scroll;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .rightdibtr::-webkit-scrollbar{
+    display: none;
+  }
+  .df002{
+    font-size:13px;
+  }
+    .lom{
+      width: 40%; 
+      display: flex;
+      justify-content: space-around;
+    }
+    .mit{
+      outline: none;
+      border:none;
+      color: white;
+      padding:8px;
+      border-radius: 3px;
+      width:62%;
+      background-color: rgb(0, 116, 151);
+    }
+    .serchpu{
+      border-radius: 3px;
+      width: 55%;
+      padding:5px;
+      outline: none;
+      border: rgb(214, 214, 214) solid 2px;
+    }
+      
+    .rightdibtrs{
+      width: 100%;  
+      margin: 10px;
+      display: flex; 
+      overflow-y: scroll;
+      align-items: center;
+      justify-content: space-around;
+  } 
+  .holkis{
+    display: flex;
+    justify-content: space-between; 
+    color: white;
+    overflow-x: scroll;  
+}
+.holkis::-webkit-scrollbar{
+  display: none;
+}
+.holkiser{
+  display: flex;
+  justify-content: space-between; 
+  color: white;
+  width: 200%;
+  overflow-x: scroll;
+  height: 200px;
+}
+.topimage{
+  width: 80%;
+  height: inherit;
+ }
+ .signcontainer{
+  width: 60%;
+  margin: auto;
+  border: none;
+  color:rgb(0, 116, 151);
+ }
+ .up{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: rgb(0, 116, 151);
+  border-radius:8px;
+  padding:14px;
+  font-size: 12px;
+  background-color: white;
+ }
+ .umean{
+  width: 100%; 
+  margin-top: 50px;
+  background-color:white ;
+  position: fixed;
+  height: 100vh;
+ }
+ 
+ .lin{
+  display: none;
+}
+ .art{
+  text-align: left;
+  margin-left: 12px;
+  font-size: 15px;
+  color: gray;
+ }
+ .dowen{
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  color: rgb(0, 116, 151);
+  border-radius:10px;
+  padding:14px;
+  font-size: 19px;
+  background-color: white;
+ }
+ .hello{
+  width: 100%; 
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height:100vh;
+  background-color: rgb(0, 116, 151);
+  position: fixed;
+  margin-top:50px;
+  z-index: 100;
+ }
+ .ima1{
+  width: 100%;
+ }
+ 
+ .noius{ 
+  width: 35%;
+  font-size: 10px; 
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid;
+  margin: 5px;
+   outline: none;
+    padding:8px;
+     border-radius:10px; 
+      cursor: pointer;
+}
+.noiuss{ 
+  font-size: 10px;
+  padding: 20px;
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid;
+  margin: 5px;
+   outline: none;
+    padding:8px;
+    width: 50%;
+    margin: auto;
+     border-radius:10px; 
+      cursor: pointer;
+}
+.losertik{
+  color: red;
+  width: 100%;
+  text-align:right;
+  margin: 0px;
+  font-size: 20px;
+}
+.oil{
+  color: black;
+  font-size: 18px;
+}
+.cart{
+  background-color:rgb(0, 116, 151);
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
+}
+.realki{
+  color: black;
+  margin: 0px;
+}
+.tate{
+  margin-left:10px;
+  color: rgb(0, 116, 151);
+} 
+.headimg{
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+}
+.footer{ 
+  background-color:rgb(0, 116, 151) ;
+  color: white;
+  padding: 10px;
+}
+.links{
+  font-size:20px;
+  padding: 10px;
+  color: white;
+}
+.us{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.nai{
+  display: flex;
+  color: black;
+  align-items: center; 
+}
+.rightty{
+  text-align: center;
+  font-size:13px;
+}
+.kis{
+  border-bottom: 4px solid white ;
+}
+.ads{
+  text-align: center;
+  padding: 10px;
+}
+.adside{
+    width:95%;
+    margin: auto;
+    height:200px;
+    background-color: aliceblue;
+   }
+   
+   .rightheader{
+    display: none;
+   }
+}
+
+
+
+
+
+
+
+/* tablet  screen  */ 
+@media(min-width:760px){
+  .page{ 
+    text-align: center;
+    color:rgb(0, 116, 151);
+    font-size:12px;
+  }
+  .lad{
+    width: 100%;
+    height: 100vh; 
+    margin-left: -115px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 22;
+    background-color: rgb(0, 116, 151);
+    position: fixed;
+  }
+  .hub{
+    color: white;
+  }
+  .nameser{
+    width: 100%;
+  }
+  .alrigt{
+    margin-top:230px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(230, 230, 230);
+  }
+  .ups{
+    outline: none;
+    border: none;
+    width: 100%;
+    color: rgb(0, 116, 151);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 13px;
+    color: white;  
+    background-color: red;
+  }
+  .App{
+    cursor: pointer;
+    width:70%;
+    margin: auto;
+  }
+  
+  .lin{
+    display: none;
+  }
+  header{
+    width: 100%; 
+    margin-top: 20px; 
+    margin: auto; 
+  } 
+  .thefive{
+    color: black;
+    font-size:20px;
+  }
+  .hime{
+    display: flex;
+    align-items: center; 
+    justify-content: cen;
+    width: 4%;
+    height:40px;
+  }
+  .parentsidse{
+    width: 100%;
+  }
+  .noli{
+    border-radius: 5px;
+    width: 100%;
+    background-color:rgb(0, 116, 151) ;
+    height: 6px;
+  }
+  .oneslide{
+    width:95%;
+    height:180px;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+    margin: auto;
+  }
+  
+  .oneslides{
+    width:95%;
+    display: none;
+    height:180px;
+    animation-name: come;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+    margin: auto;
+  }
+  .nolis{
+    width: 100%;
+    background-color:rgb(0, 116, 151) ;
+    height: 6px;
+    margin-top:3px ;
+    border-radius: 5px;
+    margin-bottom: 4px;
+  }
+  .nav1{ 
+      align-items: center;
+      width:71%;
+      color: rgb(0, 116, 151);
+      background-color:white ;
+      height:50px;
+      position: fixed;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+    }
+    
+    .noiu{ 
+      font-size: 10px;
+      width:100%;  
+      padding: 20px;
+      margin:2px;
+      background-color: rgb(0, 116, 151); color: white; border: none; outline: none; padding:8px; border-radius:4px; cursor: pointer;
+  }
+    .holki{
+      display: flex;
+      justify-content: space-between; 
+      color: white;
+      width: 100%;
+  }
+  .real{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+  }
+    .rightdibtr{
+      width: 97%;  
+      margin: 10px;
+      display: flex; 
+      margin-top:-10px;
+      overflow-x: scroll;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .df002{
+    font-size:16px;
+  }
+    .lom{
+      width: 40%; 
+      display: flex;
+      justify-content: space-around;
+    }
+    .mit{
+      outline: none;
+      border:none;
+      color: white;
+      padding:8px;
+      border-radius: 3px;
+      width:62%;
+      background-color: rgb(0, 116, 151);
+    }
+    .serchpu{
+      border-radius: 3px;
+      width: 55%;
+      padding:5px;
+      outline: none;
+      border: rgb(214, 214, 214) solid 2px;
+    }
+      
+    .rightdibtrs{
+      width: 100%;  
+      margin: 10px;
+      display: flex; 
+      overflow-y: scroll;
+      align-items: center;
+      justify-content: space-around;
+  } 
+  .holkis{
+    display: flex;
+    justify-content: space-between; 
+    color: white;
+    overflow-x: scroll;  
+} 
+.holkiser{
+  display: flex;
+  justify-content: space-between; 
+  color: white;
+  width: 200%;
+  overflow-x: scroll;
+  height: 200px;
+}
+.topimage{
+  width: 80%;
+  height: inherit;
+ }
+ .signcontainer{
+  margin: auto;
+  width: 60%;
+  border: none;
+  color:rgb(0, 116, 151);
+ }
+ .up{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: rgb(0, 116, 151);
+  border-radius:8px;
+  padding:14px;
+  font-size: 19px;
+  background-color: white;
+ }
+ .umean{
+  width: 100%; 
+  margin-top: 50px;
+  background-color:white ;
+  margin-left: -120px;
+  position: fixed;
+  height: 100vh;
+ }
+ .art{
+  text-align: left;
+  margin-left: 12px;
+  font-size: 15px;
+  color: gray;
+ }
+ .dowen{
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  color: rgb(0, 116, 151);
+  border-radius:10px;
+  padding:14px;
+  font-size: 19px;
+  background-color: white;
+ }
+ .hello{
+  width: 100%; 
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height:100vh;
+  background-color: rgb(0, 116, 151);
+  position: fixed;
+  margin-left: -137px;
+  margin-top:50px;
+  z-index: 100;
+ }
+ .ima1{
+  width: 100%;
+ }
+ 
+ .noius{ 
+  font-size: 10px;
+  padding: 20px;
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid;
+  margin: 5px;
+  outline: none;
+  padding:8px;
+  border-radius:10px; 
+  cursor: pointer;
+
+}
+.noiuss{ 
+  font-size: 10px;
+  padding: 20px;
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid;
+  margin: 5px;
+   outline: none;
+    padding:8px;
+    width: 50%;
+    margin: auto;
+     border-radius:10px; 
+      cursor: pointer;
+}
+.losertik{
+  color: red;
+  width: 100%;
+  text-align:right;
+  margin: 0px;
+  font-size: 20px;
+}
+.oil{
+  color: black;
+  font-size: 20px;
+}
+.cart{
+  background-color:rgb(0, 116, 151);
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
+}
+.realki{
+  color: black;
+  margin: 0px;
+}
+.tate{
+  margin-left:10px;
+  color: rgb(0, 116, 151);
+} 
+.headimg{
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+}
+.footer{ 
+  background-color:rgb(0, 116, 151) ;
+  color: white;
+  padding: 10px;
+}
+.links{
+  font-size:20px;
+  padding: 10px;
+  color: white;
+}
+.us{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.nai{
+  display: flex;
+  color: black;
+  align-items: center; 
+}
+.rightty{
+  text-align: center;
+  font-size:13px;
+}
+.kis{
+  border-bottom: 4px solid white ;
+}
+.ads{
+  text-align: center;
+  padding: 10px;
+}
+.adside{
+    width:95%;
+    margin: auto;
+    height:200px;
+    background-color: aliceblue;
+   }
+   .rightheader{
+    display: none;
+   }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* laptop  screen   */
+@media(min-width:1024px){
+  .page{
+    text-align: center;
+    color:rgb(0, 116, 151);
+    font-size: 80px;
+  }
+  .lad{
+    width: 100%;
+    height: 100vh; 
+    display: none                                                   ;
+    margin-left: -150px;
+    align-items: center;
+    justify-content: center;
+    z-index: 22;
+    background-color: rgb(0, 116, 151);
+    position: fixed;
+  }
+  .hub{
+    color: white;
+  }
+  .nameser{
+    width: 100%;
+  }
+  .up:hover{
+    cursor: pointer;
+    border: white solid 2px;
+    transition: 1s; 
+    background-color: inherit;
+    color: white;
+  }
+  .ups{
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 13px;
+    color: white;  
+    background-color: red;
+  }
+  .App{ 
+    width:80%; 
+    margin: auto;
+  }
+  .rightheader{
+    display: block;
+    width: 30%;
+    border-radius: 10px;
+    height: 180px; 
+  }
+  
+  .lin{
+    display: block;
+  }
+  .parentdivert{
+    width: 70%;
+  }
+  .upper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size:13px;
+    color:rgb(0, 116, 151) ;
+    justify-content: center;
+    border: rgb(0, 116, 151) solid 3px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  header{
+    align-items: center;
+    width: 90%; 
+    display: flex;
+    margin-top: 20px;  
+  } 
+  .thefive{
+    color: black;
+    font-size:17px;
+  }
+  .hime{
+    display: flex;
+    align-items: center; 
+    justify-content: cen;
+    width: 4%;
+    height:40px;
+  }
+  .parentsidse{
+    width: 100%;
+  }
+  .noli{
+    border-radius: 5px;
+    width: 100%;
+    background-color:rgb(0, 116, 151) ;
+    height: 6px;
+  }
+  .oneslide{
+    width:95%;
+    height:180px;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+    margin: auto;
+  }
+  
+  .oneslides{
+    width:95%;
+    display: none;
+    height:180px;
+    animation-name: come;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+    margin: auto;
+  }
+  .nolis{
+    width: 100%;
+    background-color:rgb(0, 116, 151) ;
+    height: 6px;
+    margin-top:3px ;
+    border-radius: 5px;
+    margin-bottom: 4px;
+  }
+  .nav1{ 
+      align-items: center;
+      width:80%;
+      color: rgb(0, 116, 151);
+      background-color:white ;
+      height:50px;
+      position: fixed;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+    }
+    
+    .noiu{ 
+      font-size: 10px;
+      width:100%;  
+      padding: 20px;
+      margin:2px;
+      background-color: rgb(0, 116, 151); color: white; border: none; outline: none; padding:8px; border-radius:4px; cursor: pointer;
+  }
+    .holki{
+      display: flex;
+      justify-content: space-between; 
+      color: white;
+      width: 100%;
+  }
+  .real{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+  }
+    .rightdibtr{
+      width: 97%;  
+      margin: 10px;
+      display: flex; 
+      margin-top:-10px;
+      overflow-x: scroll;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .df002{
+    font-size:16px;
+  }
+    .lom{
+      width: 40%; 
+      display: flex;
+      justify-content: space-around;
+    }
+    .mit{
+      outline: none;
+      border:none;
+      color: white;
+      padding:8px;
+      border-radius: 3px;
+      width:22%;
+      background-color: rgb(0, 116, 151);
+    }
+    .serchpu{
+      border-radius: 3px;
+      width: 55%;
+      padding:5px;
+      outline: none;
+      border: rgb(214, 214, 214) solid 2px;
+    }
+      
+    .rightdibtrs{
+      width: 100%;  
+      margin: 10px;
+      display: flex; 
+      overflow-y: scroll;
+      align-items: center;
+      justify-content: space-around;
+  } 
+  .rightdibtr::-webkit-scrollbar{
+    display: none;
+  }
+  .holkis{
+    display: flex;
+    justify-content: space-between; 
+    color: white;
+    overflow-x: scroll;  
+} 
+.holkiser{
+  display: flex;
+  justify-content: space-between; 
+  color: white;
+  width: 200%;
+  overflow-x: scroll;
+  height: 200px;
+}
+.topimage{
+  width: 80%;
+  height: inherit;
+ }
+ .signcontainer{
+  margin: auto;
+  width:20%;
+  border: none;
+  color:rgb(0, 116, 151);
+ }
+ .up{
+  width: 100%; 
+  border: none;
+  color: rgb(0, 116, 151);
+  border-radius:8px;
+  padding:10px;
+  font-size: 13px;
+  background-color: white;
+ }
+ .umean{
+  width: 100%; 
+  margin-top: 50px;
+  background-color:white ;
+  margin-left: -145px;
+  position: fixed;
+  height: 100vh;
+ }
+ .art{
+  text-align: left;
+  margin-left: 12px;
+  font-size: 15px;
+  color: gray;
+ }
+ .dowen{
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  color: rgb(0, 116, 151);
+  border-radius:10px;
+  padding:14px;
+  font-size: 19px;
+  background-color: white;
+ }
+ .hello{
+  width: 100%; 
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height:100vh;
+  background-color: rgb(0, 116, 151);
+  position: fixed;
+  margin-left: -147px;
+  margin-top:50px;
+  z-index: 100;
+ }
+ .ima1{
+  width: 100%;
+ }
+ 
+ .noius{ 
+  font-size:0px;
+  padding: 20px;
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid;
+  margin: 5px;
+   outline: none;
+    padding:8px;
+     border-radius:10px; 
+      cursor: pointer;
+}
+.noiuss{ 
+  font-size: 10px;
+  padding: 20px;
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid;
+  margin: 5px;
+   outline: none;
+    padding:8px;
+    width: 16%;
+    margin: auto;
+     border-radius:10px; 
+      cursor: pointer;
+}
+.losertik{
+  color: red;
+  width: 100%;
+  text-align:right;
+  margin: 0px;
+  font-size: 20px;
+}
+.oil{
+  color: black;
+  font-size:17px;
+}
+.cart{
+  background-color:rgb(0, 116, 151);
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
+}
+.realki{
+  color: black;
+  margin: 0px;
+}
+.tate{
+  margin-left:10px;
+  color: rgb(0, 116, 151);
+} 
+.headimg{
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+}
+.footer{ 
+  background-color:rgb(0, 116, 151) ;
+  color: white;
+  padding: 10px;
+}
+.links{
+  font-size:20px;
+  padding: 10px;
+  color: white;
+}
+.us{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nai{
+  display: flex;
+  color: black;
+  align-items: center; 
+}
+.rightty{
+  text-align: center;
+  font-size:13px;
+}
+.kis{
+  border-bottom: 4px solid white ;
+}
+.ads{
+  text-align: center;
+  padding: 10px;
+}
+.adside{
+    width:45%;
+    margin: auto;
+    height:200px;
+    background-color: aliceblue;
+   } 
+}
+
+ 
+
