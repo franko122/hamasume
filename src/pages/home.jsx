@@ -1,5 +1,6 @@
  
 import { useState} from 'react'; 
+import naira from '../img/naira.png'
 import css from '../App.css'; 
 import react from 'react'
 import {Link ,Outlet} from 'react-router-dom'
@@ -33,29 +34,32 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
     
     
     go ? 
-    
-    <div className="noiuss" id="liki">  
-        <h5 className='losertik'   onClick={()=>come(!go)}>
-      X
-     </h5> 
+    <div>
+          <h5 className='losertik'   onClick={()=>come(!go)}>
+      X 
+     </h5>
+           <div className="noiuset" id="liki">  
       
-            <img src alt=""  className='nameser' />
-            <br />
-            <b className='oil'>Baby Oil </b>
-            <br />
-            <div className='nai'>  
-              <img  width={20} alt="" />
-            <b className='thefive'>2,500</b>
-            </div>
-            <div className='nai'>
-              <img  width={20} alt=""/>
-              <del  className='df002'>2,500</del>
-            </div>
-            <b className='oil'> Enoxo Company</b>
-            <button className='cart'> 
-              Book Now
-            </button>
-        </div>:null
+                        <img src={carriage} alt="" width={150} />
+                        <br />
+                        <b className='oil'>Baby Oil </b>
+                        <br />
+                        <div className='nai'>  
+                          <img src={naira} width={20} alt="" />
+                        <b className='thefive'>2,500</b>
+                        </div>
+                       <div className='nai'>
+                          <img src={naira} width={20} alt=""/>
+                          <del  className='df002'>2,500</del>
+                        </div>
+                        <b className='oil'> Enoxo Company</b>
+                        <button className='cart'>
+                          Add To Cart
+                        </button>
+                        <br />
+                        </div> 
+    </div>  
+    :null
                }
                    
             </section> : null 

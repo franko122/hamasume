@@ -1,5 +1,16 @@
  /* mobile screen */
-@media(max-width:760px){
+@media(max-width:760px){ 
+  .noiuset{ 
+   width: 35%;
+   font-size: 10px;  
+   border: solid 3px ; 
+   border:rgb(0, 116, 151) 3px solid;
+   margin: auto;
+    outline: none;
+     padding:8px;
+      border-radius:10px; 
+       cursor: pointer;
+ }
   .page{ 
     text-align: center;
     color:rgb(0, 116, 151);
@@ -130,7 +141,7 @@
   .real{
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
   }
     .rightdibtr{
       width: 97%;  
@@ -158,7 +169,7 @@
       color: white;
       padding:8px;
       border-radius: 3px;
-      width:62%;
+      width:40%;
       background-color: rgb(0, 116, 151);
     }
     .serchpu{
@@ -285,14 +296,14 @@
 }
 .losertik{
   color: red;
-  width: 100%;
+  width:70%;
   text-align:right;
   margin: 0px;
   font-size: 20px;
 }
 .oil{
   color: black;
-  font-size: 18px;
+  font-size: 10px;
 }
 .cart{
   background-color:rgb(0, 116, 151);
@@ -652,7 +663,7 @@
 }
 .oil{
   color: black;
-  font-size: 20px;
+  font-size: 10px;
 }
 .cart{
   background-color:rgb(0, 116, 151);
@@ -1043,8 +1054,9 @@
 }
 .oil{
   color: black;
-  font-size:17px;
+  font-size:10px;
 }
+
 .cart{
   background-color:rgb(0, 116, 151);
   color: white;
@@ -1055,6 +1067,7 @@
   padding: 10px;
   border: none;
 }
+
 .realki{
   color: black;
   margin: 0px;
