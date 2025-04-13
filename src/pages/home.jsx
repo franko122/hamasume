@@ -5,7 +5,10 @@ import css from '../App.css';
 import react from 'react'
 import {Link ,Outlet} from 'react-router-dom'
 import Header from '../components/Header';
+import Navdown from '../components/Navdown'
+import Topstores from '../components/Topstores'
 import Footer from '../components/Footer';
+import cart from '../img/cart.png'
 import Downsection from '../components/Downsection';
 import Adside from '../components/Adside';
 import carriage from '../img/carriage.jpg';  
@@ -146,9 +149,7 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
                      <h1 className='alrigt'>
                             Alrigth reserved Hammasume 2024 - 2024
                      </h1>
-    </div>
-                    
-                   
+    </div>  
                   </section>:null
                 }
     
@@ -166,12 +167,9 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
               <button className="mit">
                 Search
               </button>    
-              </form>
-               <b className='lin'>
-                Okechukwu Franklin 
-               </b>
+              </form> 
               <div  onClick={()=>lastsho(!secshow)}>
-                <img  src={carriage} width={25} alt="" />
+                <img  src={cart} width={25} alt="" />
               </div>
               <div className="hime" onClick={()=>setShow(!show)}>
                   <div className="parentsidse"> 
@@ -183,8 +181,7 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
             </nav>    
             <br />
             <br />
-            <br />    
-         <br />
+            <br />     
          <div className="rightdibtr"> 
                 <div className="holki">
                       <button className="noiu" id="liki">
@@ -258,15 +255,15 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
                         </a>
                       </button>
                 </div>
-           </div>
-        <br /> 
-           <Header/>
-            <br/>
-            <Downsection/>
-            <br/>
+           </div> 
+        <Navdown/>    
+            <Topstores/> 
+            <Downsection/> 
             <Adside/>
             <br/>
             <Footer/>
+            <br />
+            <br /> 
                 </div>
       );
     }

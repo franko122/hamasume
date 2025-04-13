@@ -1,5 +1,113 @@
  /* mobile screen */
 @media(max-width:760px){ 
+  .store{
+    color:rgb(0, 116, 151);
+    text-align: center;
+    font-size: 14px;
+  }
+  .homnavs{
+    font-size: 12px;
+    width: 19%;
+    border-radius:3px;
+    justify-content: center;
+    color: rgb(0, 116, 151);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+  .navert{
+    width: 100%;
+    background-color:rgb(0, 116, 151);
+    height:70px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    bottom: 0px; 
+  }
+  .now{
+    width: 100%;
+    padding:19px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color:rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+  .uert{
+    width: 100%;
+    height: 40px;
+  }
+  .uert{
+    width: 80%;  
+    margin: auto;
+  }
+  .sectionside{
+    width: 98%; 
+    height: 100vh;
+    color:rgb(175, 175, 175);
+    margin: auto; 
+  }
+  .homer{
+    color:rgb(175, 175, 175)  ;
+  }
+  .homem{
+    color: rgb(0, 116, 151);
+  }
+  .banking{
+    padding: 10px;
+    text-align: center;
+  } 
+  .firstdivl{
+    width: 57%; 
+    height:10px;
+    padding:25px;
+    border-radius: 4px; 
+    margin: auto;
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+  .firstdiverts{
+    width: 9%; 
+    height:10px;
+    padding:25px;
+    border-radius: 4px;
+    border:solid 3px rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+  .firstdivert{
+    width: 90%; 
+    height: 10px;
+    padding:15px;
+    border-radius: 4px;
+    border:solid 3px rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+
+  .firstdiv{
+    width: 95%;
+    color:gray;
+    margin: auto;     
+}
   .noiuset{ 
    width: 35%;
    font-size: 10px;  
@@ -12,7 +120,7 @@
        cursor: pointer;
  }
   .page{ 
-    text-align: center;
+    text-align: center; 
     color:rgb(0, 116, 151);
     font-size:12px;
   }
@@ -85,6 +193,7 @@
     background-color:rgb(0, 116, 151) ;
     height: 6px;
   }
+  
   .oneslide{
     width:95%;
     height:180px;
@@ -145,7 +254,7 @@
   }
     .rightdibtr{
       width: 97%;  
-      margin: 10px;
+      margin: 14px;
       display: flex; 
       margin-top:-10px;
       overflow-x: scroll;
@@ -268,6 +377,17 @@
   width: 100%;
  }
  
+ .noiusin{ 
+  width: 35%;
+  font-size: 10px; 
+  margin:2px; 
+  border: solid 3px ; 
+  border:rgb(0, 116, 151) 3px solid; 
+   outline: none;
+    padding:8px;
+     border-radius:10px; 
+      cursor: pointer;
+}
  .noius{ 
   width: 35%;
   font-size: 10px; 
@@ -303,7 +423,17 @@
 }
 .oil{
   color: black;
-  font-size: 10px;
+  font-size: 13px;
+} 
+.carts{
+  background-color:green;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
 }
 .cart{
   background-color:rgb(0, 116, 151);
@@ -322,6 +452,12 @@
 .tate{
   margin-left:10px;
   color: rgb(0, 116, 151);
+} 
+.tates{
+  margin-left:10px;
+  color: green;
+  font-size:25px;
+  padding: 0px;
 } 
 .headimg{
   width: 100%;

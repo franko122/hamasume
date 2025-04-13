@@ -1,6 +1,7 @@
 import react,{ Component } from "react";  
 import carriage from '../img/carriage.jpg';
 import naira from '../img/naira.png';
+import spoon from '../img/IMG-20240802-WA0009.jpg'
 export class Downsection extends Component {
   render(){
       return(
@@ -13,10 +14,9 @@ export class Downsection extends Component {
        </h1>
        <br />
        <div className="rightdibtr"> 
-       <div className="holkis">
-       
+       <div className="holkis"> 
    <div className="noius" id="liki">  
-                    <img src={carriage} alt="" width={100} />
+                    <img src={spoon} alt="" height={70} width={100} />
                     <br />
                     <b className='oil'>Baby Oil </b>
                     <br />
@@ -34,26 +34,8 @@ export class Downsection extends Component {
                     </button>
                     <br />
                     </div>    
-       <div className="noius" id="liki">  
-       <img src={carriage} alt="" width={100} />
-       <br />
-       <b className='oil'>Baby Oil </b>
-       <br />
-       <div className='nai'>  
-         <img src={naira} width={20} alt="" />
-       <b className='thefive'>2,500</b>
-       </div>
-      <div className='nai'>
-         <img src={naira} width={20} alt=""/>
-         <del  className='df002'>2,500</del>
-       </div>
-       <b className='oil'> Enoxo Company</b>
-       <button className='cart'>
-         Add To Cart
-       </button>
-   </div>     
-   <div className="noius" id="liki">  
-                    <img src={carriage} alt="" width={100} />
+                    <div className="noius" id="liki">  
+                    <img src={spoon} alt="" height={70} width={100} />
                     <br />
                     <b className='oil'>Baby Oil </b>
                     <br />
@@ -70,7 +52,44 @@ export class Downsection extends Component {
                       Add To Cart
                     </button>
                     <br />
-                    </div>       
+                    </div>
+                    <div className="noius" id="liki">  
+                    <img src={spoon} alt="" height={70} width={100} />
+                    <br />
+                    <b className='oil'>Baby Oil </b>
+                    <br />
+                    <div className='nai'>  
+                      <img src={naira} width={20} alt="" />
+                    <b className='thefive'>2,500</b>
+                    </div>
+                   <div className='nai'>
+                      <img src={naira} width={20} alt=""/>
+                      <del  className='df002'>2,500</del>
+                    </div>
+                    <b className='oil'> Enoxo Company</b>
+                    <button className='cart'>
+                      Add To Cart
+                    </button>
+                    <br />
+                    </div><div className="noius" id="liki">  
+                    <img src={spoon} alt="" height={70} width={100} />
+                    <br />
+                    <b className='oil'>Baby Oil </b>
+                    <br />
+                    <div className='nai'>  
+                      <img src={naira} width={20} alt="" />
+                    <b className='thefive'>2,500</b>
+                    </div>
+                   <div className='nai'>
+                      <img src={naira} width={20} alt=""/>
+                      <del  className='df002'>2,500</del>
+                    </div>
+                    <b className='oil'> Enoxo Company</b>
+                    <button className='cart'>
+                      Add To Cart
+                    </button>
+                    <br />
+                    </div>   
                 <br />
              
                 

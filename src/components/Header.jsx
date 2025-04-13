@@ -5,17 +5,14 @@ export class Header extends Component {
   render(){
       return(
           <header  id='lopo' className="header">
-          <div className='parentdivert'>
-
+          <div className='parentdivert'> 
           <div className="oneslide">
                 <img src={secimg} className='headimg' alt="" />
               </div> 
               <div className="oneslides">
                 <img src={fistpic} className='headi mg' alt="" />
-              </div> 
-
-          </div>
-
+              </div>  
+          </div> 
           <div className='rightheader'>
                 <div className='upper'>
                   <b>
