@@ -6,11 +6,11 @@ export class Topstores extends Component {
          render(){
           return( 
           <div> 
-<h1 className='realki'>
+<div className='realki'> 
    <b className='tates'> 
     Top Stores/Companies
    </b>
-</h1>
+</div>
 <br />
 <div className="rightdibtr"> 
 <div className="holkis">

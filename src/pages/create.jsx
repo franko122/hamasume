@@ -6,7 +6,8 @@ import login from '../pages/login'
 import NavDown from '../components/Navdown'
 function Appcreate() {  
  return(
-    <div>
+    <section className='App'>
+        <div>
     <section className='sectionside'>
      <h1 className='store'>
         Sign up Now
@@ -25,7 +26,7 @@ function Appcreate() {
             </div>
             <br />
             <div className='firstdiv'>
-                <input type="text" placeholder='Company Name' required  className='firstdivert'/>
+                <input type="text" placeholder='Store Name' required  className='firstdivert'/>
             </div>
             <br />
             <div className='firstdiv'>
@@ -38,7 +39,7 @@ function Appcreate() {
                 </button>
             </div> 
         </form>  
-          <div className='firstdivl'>
+          <div className='banking'>
               Already  have an account <Link to='/login' className='firstdiv'>sign in</Link>
           </div>
         <div className='banking'> 
@@ -47,6 +48,7 @@ function Appcreate() {
     </section>
     <NavDown/>
     </div> 
+    </section>
  )
 }
 export default Appcreate;

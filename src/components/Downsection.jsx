@@ -11,8 +11,7 @@ export class Downsection extends Component {
             <b className='tate'>
             Real Estate
             </b>
-       </h1>
-       <br />
+       </h1> 
        <div className="rightdibtr"> 
        <div className="holkis"> 
    <div className="noius" id="liki">  
@@ -71,7 +70,8 @@ export class Downsection extends Component {
                       Add To Cart
                     </button>
                     <br />
-                    </div><div className="noius" id="liki">  
+                    </div>
+                    <div className="noius" id="liki">  
                     <img src={spoon} alt="" height={70} width={100} />
                     <br />
                     <b className='oil'>Baby Oil </b>
@@ -101,9 +101,7 @@ export class Downsection extends Component {
             <b className='tate'>
             Electronics
             </b>
-       </h1>
-       
-       <br />
+       </h1> 
        <div className="rightdibtr"> 
        <div className="holkis">
           
@@ -172,8 +170,7 @@ export class Downsection extends Component {
             <b className='tate'>
             Wears/Fashions   
              </b>
-       </h1>
-       <br /> 
+       </h1> 
        <div className="rightdibtr"> 
        <div className="holkis">
           

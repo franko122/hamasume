@@ -1,42 +1,29 @@
- 
-import { useState} from 'react'; 
-import naira from '../img/naira.png'
-import css from '../App.css'; 
-import react from 'react';
-import Fromus from '../components/Fromus'
-import {Link ,Outlet} from 'react-router-dom'
-import Header from '../components/Header';
-import Navdown from '../components/Navdown';
-import Topstores from '../components/Topstores'
-import Footer from '../components/Footer';
-import cart from '../img/cart.png'
-import Downsection from '../components/Downsection';
-import Adside from '../components/Adside';
-import carriage from '../img/carriage.jpg';  
-import index from '../index';
-import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
- 
 
-    function Apps() { 
-      // this for hanburger
-      const [show,setShow] = useState(false)
-      //this for  parentcart disapear 
-      const [secshow , lastsho] =useState(false)
-      //this  for  inner cart 
-      const [go ,come] =useState(true) 
-      return (
+import { useState} from 'react'; 
+import React from 'react';
+import {Link} from 'react-router-dom';
+import NavDown from '../components/Navdown';
+import carriage from '../img/carriage.jpg';
+import cart from '../img/cart.png';
+import Proheader from '../components/Proheader'
+import naira from '../img/naira.png';
+function Profile() { 
+        // this for hanburger
+        const [show,setShow] = useState(false)
+        //this for  parentcart disapear 
+        const [secshow , lastsho] =useState(false)
+        //this  for  inner cart 
+        const [go ,come] =useState(true)   
+ return(
+    <div> 
         <div className="App">
           { 
-            secshow?
-            
+            secshow? 
              <section className='umean'> 
                 <h1 className='art'>
                My Cart
                 </h1> 
-               {
-    
-    
-    
+               { 
     go ? 
     <div>
           <h5 className='losertik'   onClick={()=>come(!go)}>
@@ -95,7 +82,7 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
                      <br />
                      <button className='up'> 
                       <b> 
-                        Upload Service
+                        Upload Job
                       </b>
                      </button> 
                      <br />
@@ -179,95 +166,11 @@ import { BrowserRouter, Routes, Routers, Route,   } from 'react-router-dom';
                    <div className="noli"></div>
                   </div>
               </div>
-            </nav>    
-            <br />
-            <br />
-            <br />     
-         <div className="rightdibtr"> 
-                <div className="holki">
-                      <button className="noiu" id="liki">
-                            <a href="fetchreal" className="real">
-                                     Real Estate
-                             </a> 
-                    </button>
-                     <button className="noiu" id="appli">
-                        <a href="./fetchhomeap"  className="real">
-                            Home Appliances
-                           </a>            
-                          </button> 
-                    <button className="noiu" id="nic">
-                      <a href="fetvhelect.html"   className="real">
-                        Eletronics
-                      </a>
-                    </button>
-                    
-                    <button className="noiu" id="moki"  >
-                        <a href="/vote"   className="real">
-                         Vote
-                        </a> 
-                     </button>
-                    <button className="noiu" id="niki">
-                        <a href="/ticket"  className="real" >
-                         Buy Tickets
-                        </a> 
-                     </button>
-    
-                     <button className="noiu" id="shion">
-                        <a href="fetchwear"  className="real">                         
-                        Wears/fashion
-                        </a>
-                    </button>
-                     <button className="noiu" id="shions">
-                        <a href="fetchvehi"  className="real">
-                            Vehicles
-                        </a>
-                    </button>
-                    <button className="noiu" id="fshionh">
-                       <a href="./fetchcost"  className="real">Cosmetics</a>
-                    </button>
-                    <button className="noiu" id="niture"> 
-                        <a href="fetchfun"  className="real">
-                        Furniture
-                        </a>
-                    </button>
-                    <button className="noiu" id="ruction"  > 
-                        <a href="fetchconstru"  className="real">
-                        Construction
-                        </a>
-                    </button>
-                    <button className="noiu" id="riage"> 
-                        <a href="fetchdrive"  className="real">
-                       Carriage
-                        </a>
-                    </button>
-                    <button className="noiu" id="ange">
-                        <a  href="https://getcoins-us.onrender.com/Getcoinset/index.html" target="_blank"  className="real">
-                            Crypto Exchange
-                        </a>
-                    </button>    
-                      <button className="noiu" id="jobert">
-                        <a href="fetchjob"  className="real"> 
-                          Services
-                        </a>
-                    </button>
-                    <button className="noiu" id="lopelokr">
-                        <a href="wa.me/9034069907"  className="real" target="_blank">
-                          Contact Developer
-                        </a>
-                      </button>
-                </div>
-           </div> 
-        <Navdown/>    
-            <Topstores/> 
-            <Fromus/>
-            <Downsection/> 
-            <Adside/>
-            <br/>
-            <Footer/>
-            <br />
-            <br /> 
-                </div>
-      );
-    }
-    export default Apps;
-    
+            </nav>     
+    <NavDown/>
+    <Proheader/>
+</div>
+</div>
+ )
+}
+export default Profile;

@@ -5,7 +5,8 @@ import {Link} from 'react-router-dom';
 import NavDown from '../components/Navdown'
 function Applogin() {  
  return(
-    <div>
+       <section className='App'>
+           <div>
     <section className='sectionside'>
      <h1 className='store'>
         Sign In  
@@ -25,7 +26,7 @@ function Applogin() {
                 </button>
             </div> 
         </form>
-        <div className='firstdivl'>
+        <div className='banking'>
                Didnt have an account <Link to='/create' className='firstdiv'>sign Up</Link>
                </div>
                 <div className='banking'>
@@ -37,6 +38,7 @@ function Applogin() {
     </section>
     <NavDown/>
 </div>
+       </section>
  )
 }
 export default Applogin;

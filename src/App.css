@@ -1,12 +1,63 @@
  /* mobile screen */
 @media(max-width:760px){ 
+  .dowmsidert{
+    width:95%; 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .sosre{
+    border-radius:3px;
+    background-color: rgb(255, 136, 0);
+    border:none;
+    height:30px;
+    font-size: 10px;
+    color:white;
+    outline:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
   .store{
     color:rgb(0, 116, 151);
     text-align: center;
     font-size: 14px;
   }
+  .parentdiv{
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    color:white;
+    font-size: 8px;
+    align-items: center;
+   } 
+   .pside{
+    border-radius: 10px;
+    width: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .pro{
+    border-radius: 5px;
+    width:100%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(0, 116, 151);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  .huber{
+    font-size: 9px;
+  }
   .homnavs{
-    font-size: 12px;
+    font-size: 9px;
     width: 19%;
     border-radius:3px;
     justify-content: center;
@@ -14,7 +65,7 @@
     background-color: white;
     display: flex;
     align-items: center;
-    height: 35px;
+    height: 25px;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     -ms-border-radius:3px;
@@ -23,7 +74,7 @@
   .navert{
     width: 100%;
     background-color:rgb(0, 116, 151);
-    height:70px;
+    height:40px;
     position: fixed;
     display: flex;
     justify-content: space-around;
@@ -32,7 +83,7 @@
   }
   .now{
     width: 100%;
-    padding:19px;
+    padding:10px;
     border-radius: 4px;
     border: none;
     color: white;
@@ -41,11 +92,7 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-}
-  .uert{
-    width: 100%;
-    height: 40px;
-  }
+} 
   .uert{
     width: 80%;  
     margin: auto;
@@ -60,16 +107,19 @@
     color:rgb(175, 175, 175)  ;
   }
   .homem{
-    color: rgb(0, 116, 151);
+    color: rgb(0, 116, 151); 
   }
   .banking{
     padding: 10px;
     text-align: center;
+    font-size: 9px;
   } 
   .firstdivl{
     width: 57%; 
+    text-align: center;
     height:10px;
     padding:25px;
+    font-size: 9px;
     border-radius: 4px; 
     margin: auto;
     -webkit-border-radius: 4px;
@@ -127,6 +177,7 @@
   .upo{
     color:rgb(0, 116, 151);
     outline: none;
+    font-size: 9px;
     text-decoration: none;
   }
   .lad{
@@ -191,7 +242,7 @@
     border-radius: 5px;
     width: 100%;
     background-color:rgb(0, 116, 151) ;
-    height: 6px;
+    height: 4px;
   }
   
   .oneslide{
@@ -216,7 +267,7 @@
   .nolis{
     width: 100%;
     background-color:rgb(0, 116, 151) ;
-    height: 6px;
+    height: 4px;
     margin-top:3px ;
     border-radius: 5px;
     margin-bottom: 4px;
@@ -243,18 +294,17 @@
     .holki{
       display: flex;
       justify-content: space-between; 
-      color: white;
+      color: white; 
       width: 100%;
   }
   
   .real{
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 6px;
   }
     .rightdibtr{
-      width: 97%;  
-      margin: 14px;
+      width: 97%;   
       display: flex; 
       margin-top:-10px;
       overflow-x: scroll;
@@ -275,6 +325,7 @@
     .mit{
       outline: none;
       border:none;
+      font-size: 7px;
       color: white;
       padding:8px;
       border-radius: 3px;
@@ -285,6 +336,7 @@
       border-radius: 3px;
       width: 55%;
       padding:5px;
+      font-size: 9px;
       outline: none;
       border: rgb(214, 214, 214) solid 2px;
     }
@@ -299,9 +351,10 @@
   } 
   .holkis{
     display: flex;
+    width: 100%;
     justify-content: space-between; 
     color: white;
-    overflow-x: scroll;  
+    overflow-x: scroll;   
 }
 .holkis::-webkit-scrollbar{
   display: none;
@@ -326,7 +379,7 @@
  }
  .up{
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   border: none;
   color: rgb(0, 116, 151);
   border-radius:8px;
@@ -423,12 +476,25 @@
 }
 .oil{
   color: black;
-  font-size: 13px;
+  font-size: 10px;
 } 
 .carts{
   background-color:green;
   color: white;
   width: 100%;
+  font-size: 10px;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
+}
+
+.cartser{
+  background-color:rgb(255, 136, 0);
+  color: white;
+  width: 100%;
+  font-size: 10px;
   margin-top: 10px;
   outline: none;
   border-radius:3px;
@@ -439,6 +505,7 @@
   background-color:rgb(0, 116, 151);
   color: white;
   width: 100%;
+  font-size:9px;
   margin-top: 10px;
   outline: none;
   border-radius:3px;
@@ -447,16 +514,22 @@
 }
 .realki{
   color: black;
-  margin: 0px;
+  margin-top: 5px;
 }
 .tate{
   margin-left:10px;
   color: rgb(0, 116, 151);
 } 
-.tates{
+.tates{ 
   margin-left:10px;
   color: green;
-  font-size:25px;
+  font-size:16px;
+  padding: 0px;
+} 
+.tateser{
+  margin-left:10px;
+  color: rgb(255, 136, 0);
+  font-size:16px;
   padding: 0px;
 } 
 .headimg{
@@ -487,7 +560,7 @@
 }
 .rightty{
   text-align: center;
-  font-size:13px;
+  font-size:10px;
 }
 .kis{
   border-bottom: 4px solid white ;
@@ -515,7 +588,162 @@
 
 
 /* tablet  screen  */ 
-@media(min-width:760px){
+@media(min-width:760px){ 
+  
+  .banking{
+    padding: 10px;
+    text-align: center;
+    font-size: 9px;
+  } 
+  .firstdiv{
+    width: 95%;
+    color:gray;
+    margin: auto;     
+}
+  .firstdivl{
+    width: 57%; 
+    text-align: center;
+    height:10px;
+    padding:25px;
+    font-size: 9px;
+    border-radius: 4px; 
+    margin: auto;
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+  .uert{
+    width: 80%;  
+    margin: auto;
+  }
+  .now{
+    width: 100%;
+    padding:10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color:rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+  .firstdivert{
+    width: 90%; 
+    height: 10px;
+    padding:15px;
+    border-radius: 4px;
+    border:solid 3px rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+  .store{
+    color:rgb(0, 116, 151);
+    text-align: center;
+    font-size: 14px;
+  }
+  .sectionside{
+    width: 78%; 
+    height: 100vh;
+    color:rgb(175, 175, 175);
+    margin: auto; 
+  }
+  .firstdiv{
+    width: 95%;
+    color:gray;
+    font-size: 14px;
+    margin: auto;     
+}
+  .noiuset{ 
+    width: 35%;
+    font-size: 10px;  
+    border: solid 3px ; 
+    border:rgb(0, 116, 151) 3px solid;
+    margin: auto;
+     outline: none;
+      padding:8px;
+       border-radius:10px; 
+        cursor: pointer;
+  }
+.carts{
+  background-color:green;
+  color: white;
+  width: 100%;
+  font-size: 10px;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
+}
+
+.cartser{
+  background-color:rgb(255, 136, 0);
+  color: white;
+  width: 100%;
+  font-size: 10px;
+  margin-top: 10px;
+  outline: none;
+  border-radius:3px;
+  padding: 10px;
+  border: none;
+}
+  .noiusin{ 
+    width: 35%;
+    font-size: 10px; 
+    margin:2px; 
+    border: solid 3px ; 
+    border:rgb(0, 116, 151) 3px solid; 
+     outline: none;
+      padding:8px;
+       border-radius:10px; 
+        cursor: pointer;
+  }
+.tates{ 
+  margin-left:10px;
+  color: green;
+  font-size:16px;
+  padding: 0px;
+} 
+.tateser{
+  margin-left:10px;
+  color: rgb(255, 136, 0);
+  font-size:16px;
+  padding: 0px;
+} 
+  .homem{
+    color: rgb(0, 116, 151); 
+  }
+  .homnavs{
+    font-size: 9px;
+    width: 19%;
+    border-radius:3px;
+    justify-content: center;
+    color: rgb(0, 116, 151);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+  .navert{
+    width:70%;
+    background-color:rgb(0, 116, 151);
+    height:40px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    bottom: 0px; 
+  }
   .page{ 
     text-align: center;
     color:rgb(0, 116, 151);
@@ -587,7 +815,7 @@
     border-radius: 5px;
     width: 100%;
     background-color:rgb(0, 116, 151) ;
-    height: 6px;
+    height:6px;
   }
   .oneslide{
     width:95%;
@@ -644,7 +872,7 @@
   .real{
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 9px;
   }
     .rightdibtr{
       width: 97%;  
@@ -885,6 +1113,116 @@
 
 /* laptop  screen   */
 @media(min-width:1024px){
+  .banking{
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  } 
+  .firstdiv{
+    width: 95%;
+    color:gray;
+    margin: auto;     
+}
+  .firstdivl{
+    width: 57%; 
+    text-align: center;
+    height:10px;
+    padding:25px;
+    font-size: 14px;
+    border-radius: 4px; 
+    margin: auto;
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+  .uert{
+    width: 80%;  
+    margin: auto;
+  }
+  .now{
+    width: 100%;
+    padding:10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color:rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+  .firstdivert{
+    width: 90%; 
+    height: 10px;
+    padding:15px;
+    border-radius: 4px;
+    border:solid 3px rgb(0, 116, 151);
+    -webkit-border-radius: 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} 
+  .store{
+    color:rgb(0, 116, 151);
+    text-align: center;
+    font-size: 14px;
+  }
+  .sectionside{
+    width: 78%; 
+    height: 100vh;
+    color:rgb(175, 175, 175);
+    margin: auto; 
+  }
+  .store{
+    color:rgb(0, 116, 151);
+    text-align: center;
+    font-size: 14px;
+  }
+  .sectionside{
+    width: 38%; 
+    height: 100vh;
+    color:rgb(175, 175, 175);
+    margin: auto; 
+  }
+  .noiuset{ 
+    width: 35%;
+    font-size: 10px;  
+    border: solid 3px ; 
+    border:rgb(0, 116, 151) 3px solid;
+    margin: auto;
+     outline: none;
+      padding:8px;
+       border-radius:10px; 
+        cursor: pointer;
+  }
+  .homnavs{
+    font-size: 9px;
+    width: 19%;
+    border-radius:3px;
+    justify-content: center;
+    color: rgb(0, 116, 151);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+  .navert{
+    width: 80%;
+    background-color:rgb(0, 116, 151);
+    height:40px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    bottom: 0px; 
+  }
   .page{
     text-align: center;
     color:rgb(0, 116, 151);
@@ -967,7 +1305,7 @@
     display: flex;
     align-items: center; 
     justify-content: cen;
-    width: 4%;
+    width: 3%;
     height:40px;
   }
   .parentsidse{
@@ -1039,7 +1377,7 @@
     .rightdibtr{
       width: 97%;  
       margin: 10px;
-      display: flex; 
+      display: flex;  
       margin-top:-10px;
       overflow-x: scroll;
       align-items: center;
@@ -1111,7 +1449,7 @@
   color: rgb(0, 116, 151);
   border-radius:8px;
   padding:10px;
-  font-size: 13px;
+  font-size: 10px;
   background-color: white;
  }
  .umean{
@@ -1183,7 +1521,7 @@
 }
 .losertik{
   color: red;
-  width: 100%;
+  width: 80%;
   text-align:right;
   margin: 0px;
   font-size: 20px;
