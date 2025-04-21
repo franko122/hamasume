@@ -6,9 +6,9 @@ export class Navdown extends Component {
           return(
             <div className='navert'>
             <div className='homnavs'> <Link  to={'/home'} className='homem'>Home</Link></div>  
-            <div className='homnavs'><Link  to={'/home'} className='homem'>My Store </Link></div>  
+            <div className='homnavs'><Link  to={'/store'} className='homem'>My Store </Link></div>  
             <div className='homnavs'><Link  to={'/home'} className='homem'>orderd <br /> Goods  </Link>  </div>  
-            <div className='homnavs'><Link  to={'/profile'} className='homem'>Profile </Link></div>  
+            <div className='homnavs'><Link  to={'/profile'} className='homem'>Dashboard </Link></div>  
             </div> 
           )
          } 

@@ -62,7 +62,7 @@ function Profile() {
                     <div className='signcontainer'>
                      <button className='up'>
                              <Link to='/create' className='upo'> 
-                             <b> 
+                             <b className='orderlo'> 
                              Sign Up 
                              </b>
                                </Link>
@@ -71,69 +71,47 @@ function Profile() {
                      <br />
                      <button className='up'> 
                      <Link to='/login' className='upo'> 
-                             <b> 
+                             <b className='orderlo'> 
                              Sign In 
                              </b>
                                </Link>
                      </button> 
      
                      </div> 
-    <div className='signcontainer'>  
+    <div className='signcontainer'>   
                      <br />
                      <button className='up'> 
-                      <b> 
-                        Upload Job
-                      </b>
-                     </button> 
-                     <br />
-                     <br />
+                     <Link to='/login' className='upo'> 
+                             <b className='orderlo'> 
+                              kyc
+                                </b>
+                                  </Link>
+                        </button>
+                        <br />
+                        <br />
                      <button className='up'> 
-                      <b> 
-                        Requested Goods
-                      </b>
-                     </button> 
-                     <br />
-                     <br />
-                     <button className='up'> 
-                      <b> 
-                        Create Ticket 
-                      </b>
-                     </button> 
+                     <Link to='/login' className='upo'> 
+                             <b className='orderlo'>  
+                              About us 
+                               </b>
+                               </Link>
+                     </button>    
                      <br />
                      <br />
                      <button className='up'> 
-                      <b> 
-                        My Goods
-                      </b>
+                     <Link to='/store' className='upo'> 
+                             <b className='orderlo'>  
+                              My Store
+                             </b>
+                               </Link>
                      </button> 
                      <br />
-                     <br />
-                     <button className='up'> 
-                      <b> 
-                        Create Vote
-                      </b>
-                     </button> 
-                     <br />
-                     <br />
-                     <button className='up'> 
-                      <b> 
-                        Uplaod Goods
-                      </b>
-                     </button> 
-                     <br />
-                     <br />
+                     <br /> 
                      <button className='ups'> 
                       <b> 
                         Log Out 
                       </b>
-                     </button>
-                     <br />
-                     <br /> 
-                      <button className='ups'> 
-                      <b> 
-                        Subscribe  To Upload
-                      </b>
-                     </button>
+                     </button> 
                      <h1 className='alrigt'>
                             Alrigth reserved Hammasume 2024 - 2024
                      </h1>
@@ -143,12 +121,12 @@ function Profile() {
     
                 <div className='lad' id='wemo'> 
                    <b className='hub'>
-                       BUZHUB
+                       Hamasume
                    </b>
                    </div> 
               <nav className="nav1">
               <b className='huber'> 
-                BUZHUB 
+                Hamasume 
               </b>
               <form action="" method=''  className="lom">
               <input className="serchpu" placeholder="Search Stores"  required/>

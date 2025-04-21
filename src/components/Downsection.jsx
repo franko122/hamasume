@@ -5,7 +5,7 @@ import spoon from '../img/IMG-20240802-WA0009.jpg'
 export class Downsection extends Component {
   render(){
       return(
-          <div>
+          <div  >
                    {/* down  list*/}
        <h1 className='realki'>
             <b className='tate'>

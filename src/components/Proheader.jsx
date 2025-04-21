@@ -1,6 +1,6 @@
 import react,{ Component } from "react";  
 import profile from '../pages/profile';
-import proimg from'../img/prot.png'
+import proimg from'../img/prot.png';
 import {Link,Outlet} from 'react-router-dom';
 export class Proheader extends Component {
          render(){
@@ -13,8 +13,9 @@ export class Proheader extends Component {
                      <div className="parentdiv">
                       <div className="">   
                          <b className="kwu">Okechukwu  frank</b>
-                         / <b>Dashboard</b>
+                         / <b>Dashboard</b>/
                       </div> 
+                      <b className="redder">Verify kyc/email now</b>
                       <div >
                            <img src={proimg} alt="" className="pside"  />
                       </div>
@@ -22,33 +23,64 @@ export class Proheader extends Component {
                      <hr />
                      <div className="dowmsidert">
                      <button className="sosre">
+                             <Link to='/store' className='mewav'> 
+                             <b>   
                              My store
+                             </b>
+                               </Link>
+                          </button>
+                          <button className="sosre">   
+                            <Link to='/home' className='mewav'> 
+                             <b>   
+                             Customers orders
+                             </b>
+                               </Link>
                           </button>
                           <button className="sosre">  
-                            Create Ticket
+                            <Link to='/home' className='mewav'> 
+                             <b>   
+                             Account Details
+                             </b>
+                               </Link>
                           </button>
                           <button className="sosre">  
-                            Account Details
-                          </button>
-                          <button className="sosre"> 
-                            Create Vote
+                      <Link to='/home' className='mewav'> 
+                             <b>   
+                             Kyc
+                             </b>
+                               </Link>
                           </button>
                      </div>
                      <br />
                      <div className="dowmsidert">
                      <button className="sosre"> 
-                      Banking
+                      <Link to='/home' className='mewav'> 
+                             <b>   
+                             Banking
+                             </b>
+                               </Link>
                           </button> 
                           <button className="sosre">   
-                            Buy/Sell crypto
-                          </button>
-                          <button className="sosre">  
-                            Create Ticket
+                           
+                            <Link to='/home' className='mewav'> 
+                             <b>    Buy/Sell crypto
+                             </b>
+                               </Link>
                           </button>
                           <button className="sosre"> 
-                            Create Vote
+                            <Link to='/home' className='mewav'> 
+                             <b>   
+                            Create Ticket
+                             </b>
+                               </Link>
+                          </button>
+                          <button className="sosre"> <Link to='/home' className='mewav'> 
+                             <b>  Home
+                             </b>
+                               </Link>
                           </button>
                      </div>
+                     <hr />
                 </section>
             </div>
           )
