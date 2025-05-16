@@ -1,4 +1,5 @@
 
+
 import { useState} from 'react'; 
 import React from 'react';
 import {Link} from 'react-router-dom';
@@ -8,7 +9,8 @@ import naira from '../img/naira.png'
 function Subside() {
     return(
         <div>
-            sub
+            
+            subscription
         </div>
     )
   } 
