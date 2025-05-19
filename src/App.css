@@ -1,5 +1,49 @@
  /* mobile screen */
 @media(max-width:760px){  
+ 
+  .new{
+    width:90%;
+    border:solid 2px rgb(0, 116, 151); 
+    margin:auto;
+    border-radius:10px; 
+  }
+  .lufded{
+    font-size: 10px;
+    padding: 0%;
+  }
+  .dolas{ 
+    color: white;
+    font-size: 24px;  
+  }
+  .dola{
+    color: white;
+    font-size: 24px; 
+  }
+  .tonin{
+    width: 70px;
+    background-color: rgb(0, 116, 151);
+    border:none;
+    color:white;
+    padding: 10px;
+  }
+  .okji{
+    width:95%;
+    height:60px;
+    padding: 3px;
+    justify-content: space-around   ;
+    display:flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(0, 116, 151);
+  }
+  .ton{
+    width:90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+  }
   .homemed{
     color:white;
   }
